@@ -7,7 +7,8 @@
   <!-- the theme of your GWT application by uncommenting          -->
   <!-- any one of the following lines.                            -->
   <inherits name='com.google.gwt.user.theme.standard.Standard' />
-  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+    <inherits name='com.sencha.gxt.ui.GXT' />
+    <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
 
   <!-- Other module inherits                                      -->
@@ -19,4 +20,7 @@
   <source path='client' />
   <source path='shared' />
 
+    <stylesheet src="reset.css" />
+
+    <!--<set-property name="user.agent" value="geck1_8" />-->
 </module>
