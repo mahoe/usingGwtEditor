@@ -35,8 +35,19 @@ public class SampleModelBean
         this.age = age;
     }
 
+    @Override
+    public String toString()
+    {
+        return "SampleModelBean{" +
+                "lastName='" + lastName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", age=" + age +
+                '}';
+    }
+
     private String lastName;
     private String firstName;
     private int age;
+
 
 }
